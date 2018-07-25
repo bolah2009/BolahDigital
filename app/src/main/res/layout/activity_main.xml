@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/digital"
+            android:scaleType="centerCrop"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Bolah"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_above="@id/test_view"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="Digital Solutions"
+            android:textColor="#ffffff"
+            android:textSize="35sp"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/test_view"
+            />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/phone"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="3dp"
+            android:text=" 08188894231"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/email"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="3dp"
+            android:text=" bola_ahmed2002@yahoo.com"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/location"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="3dp"
+            android:text="5, Buari Street, Ogudu-Ojota, Lagos, Nigeria"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/ic_action_name"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="3dp"
+            android:text="Office Time 8:00AM-5:00PM\n24/7 Support @email above and on our website  "
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableLeft="@drawable/aboutus"
+            android:fontFamily="sans-serif-light"
+            android:paddingLeft="3dp"
+            android:text="About Us \nWhether you need graphic design, web design, social media marketing, application development, e-mail marketing, or search engine marketing and optimisation, Bolah Digital Solutions has the ability to create an effective marketing campaign."
+            android:textSize="16sp" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
