@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Bolah Digital</string>
+    <string name="tel">08188894231</string>
+    <string name="biz">Bolah</string>
+    <string name="imageinfo">Image about Bolah Digital Solutions</string>
+    <string name="name">Digital Solutions</string>
+    <string name="address">5, Buari Street, Ogudu-Ojota, Lagos, Nigeria</string>
+    <string name="email">bola_ahmed2002@yahoo.com</string>
+    <string name="about">About Us \nWhether you need graphic design, web design, social media marketing, application development, e-mail marketing, or search engine marketing and optimisation, Bolah Digital Solutions has the ability to create an effective marketing campaign.</string>
+    <string name="time">Office Time 8:00AM-5:00PM\n24/7 Support @email above and on our website  </string>
+
+
 </resources>
